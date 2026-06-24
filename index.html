@@ -1,120 +1,129 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crochet World</title>
+    <title>Crochet World</title><link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 </head>
-<body>
+<body><div class="yarn-line"></div>
 
-    <!-- Header -->
-    <header>
-        <h1>Crochet World</h1>
-        <p>Learn the Art of Crochet</p>
-    </header>
+<nav>
+    <div class="logo">🧶 Crochet World</div>
 
-    <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#materials">Materials</a></li>
-            <li><a href="#stitches">Stitches</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#materials">Materials</a></li>
+        <li><a href="#stitches">Stitches</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
 
-    <!-- Hero -->
-    <section class="hero">
-        <h2>Create Beautiful Crochet Items</h2>
-        <p>
-            Discover crochet techniques, stitches, and beginner-friendly projects.
-        </p>
-        <button id="learnBtn">Start Learning</button>
-    </section>
+<header class="hero">
+    <h1>Welcome to Crochet World</h1>
 
-    <!-- About -->
-    <section id="about">
-        <h2>About Crochet</h2>
-        <p>
-            Crochet is a craft where yarn is turned into fabric using a crochet hook.
-            It can be used to make clothes, toys, bags, blankets, and decorative items.
-        </p>
-    </section>
+    <p>
+        Learn beautiful crochet techniques, stitches,
+        patterns and beginner-friendly projects.
+    </p>
 
-    <!-- Materials -->
-    <section id="materials">
-        <h2>Materials Needed</h2>
-        <ul>
-            <li>Crochet Hook</li>
-            <li>Yarn</li>
-            <li>Scissors</li>
-            <li>Measuring Tape</li>
-            <li>Stitch Markers</li>
-        </ul>
-    </section>
+    <button id="learnBtn">
+        Start Learning
+    </button>
+</header>
 
-    <!-- Stitches -->
-    <section id="stitches">
-        <h2>Basic Crochet Stitches</h2>
+<section id="about" class="reveal">
+    <h2>About Crochet</h2>
 
-        <div class="card-container">
+    <p>
+        Crochet is a creative craft that uses yarn and a hook
+        to create beautiful items such as bags, toys,
+        flowers, blankets and clothing.
+    </p>
+</section>
 
-            <div class="card">
-                <h3>Chain Stitch</h3>
-                <p>The foundation of most crochet projects.</p>
-            </div>
+<section id="materials" class="reveal">
+    <h2>Materials Needed</h2>
 
-            <div class="card">
-                <h3>Single Crochet</h3>
-                <p>A simple and strong stitch used in many patterns.</p>
-            </div>
+    <div class="cards">
 
-            <div class="card">
-                <h3>Double Crochet</h3>
-                <p>Taller stitch that works up quickly.</p>
-            </div>
-
+        <div class="card">
+            <h3>🪝 Crochet Hook</h3>
+            <p>Essential tool for creating stitches.</p>
         </div>
-    </section>
 
-    <!-- Projects -->
-    <section id="projects">
-        <h2>Beginner Projects</h2>
-
-        <div class="card-container">
-
-            <div class="card">
-                <h3>Scarf</h3>
-                <p>Easy project for learning basic stitches.</p>
-            </div>
-
-            <div class="card">
-                <h3>Coaster</h3>
-                <p>Small and quick crochet project.</p>
-            </div>
-
-            <div class="card">
-                <h3>Flower</h3>
-                <p>Decorative crochet flower design.</p>
-            </div>
-
+        <div class="card">
+            <h3>🧶 Yarn</h3>
+            <p>Available in many colors and textures.</p>
         </div>
-    </section>
 
-    <!-- Contact -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: crochetworld@example.com</p>
-    </section>
+        <div class="card">
+            <h3>✂️ Scissors</h3>
+            <p>Used for trimming yarn neatly.</p>
+        </div>
 
-    <!-- Footer -->
-    <footer>
-        <p>© 2026 Crochet World | Made with Yarn & Creativity</p>
-    </footer>
+    </div>
+</section>
 
-    <script src="script.js"></script>
+<section id="stitches" class="reveal">
+    <h2>Basic Crochet Stitches</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Chain Stitch</h3>
+            <p>The foundation of most crochet projects.</p>
+        </div>
+
+        <div class="card">
+            <h3>Single Crochet</h3>
+            <p>Simple and beginner friendly.</p>
+        </div>
+
+        <div class="card">
+            <h3>Double Crochet</h3>
+            <p>Taller stitch that builds quickly.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="projects" class="reveal">
+    <h2>Beginner Projects</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🧣 Scarf</h3>
+            <p>Perfect project for beginners.</p>
+        </div>
+
+        <div class="card">
+            <h3>🌸 Flower</h3>
+            <p>Decorative and easy to create.</p>
+        </div>
+
+        <div class="card">
+            <h3>☕ Coaster</h3>
+            <p>Quick project to practice stitches.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact" class="reveal">
+    <h2>Contact</h2>
+
+    <p>Email: crochetworld@example.com</p>
+</section>
+
+<footer>
+    <p>© 2026 Crochet World</p>
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
