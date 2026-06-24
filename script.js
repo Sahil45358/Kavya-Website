@@ -1,7 +1,12 @@
-document.getElementById("learnBtn").addEventListener("click", function() {
+document.addEventListener("DOMContentLoaded", () => {
 
-    document.getElementById("about").scrollIntoView({
-        behavior: "smooth"
+    const button = document.getElementById("learnBtn");
+    const aboutSection = document.getElementById("about");
+
+    button.addEventListener("click", () => {
+        aboutSection.scrollIntoView({
+            behavior: "smooth"
+        });
     });
 
 });
